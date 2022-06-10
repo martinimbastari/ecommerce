@@ -1,7 +1,7 @@
 
 .logo {
     margin-right: 10px;
-    height: 5rem;
+    height: 6rem;
 }
 
 
@@ -15,8 +15,4 @@
     justify-content: end;
     font-weight: 600;
     padding: 10px;
-}
-
-.box {
-    margin-bottom: 5px;
 }

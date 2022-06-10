@@ -38,7 +38,7 @@ export default function Navbar() {
 
 
   return (
-    <Box className='box'  sx={{ flexGrow: 1 }}>
+    <Box m={20} sx={{ flexGrow: 1 }}>
       <AppBar className='app-bar' color='inherit' position="fixed">
         <Toolbar>
           <Link to="/">
