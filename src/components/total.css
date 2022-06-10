@@ -1,0 +1,12 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.price {
+    margin-bottom: 2rem;
+}
+

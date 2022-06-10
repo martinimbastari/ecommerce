@@ -1,0 +1,22 @@
+
+.logo {
+    margin-right: 10px;
+    height: 5rem;
+}
+
+
+.boton strong {
+    color: rgb(1, 26, 49);
+}
+
+
+.helloGuest {
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.box {
+    margin-bottom: 5px;
+}
