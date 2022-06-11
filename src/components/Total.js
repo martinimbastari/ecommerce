@@ -17,7 +17,6 @@ export default function Total() {
         <RouteLink to="/checkout" >
         <Button Button variant='contained' color='secondary'>Check out</Button>
         </RouteLink>
-        
     </div>
   )
 }

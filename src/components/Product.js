@@ -57,7 +57,7 @@ export default function Product({product : {id, name, rating, productType, price
   }
 
   return (
-    <Card className='card' sx={{ maxWidth: 345 }}>
+    <Card className='card' sx={{ maxWidth: 350 }}>
       <CardHeader
         action={
           <Typography 

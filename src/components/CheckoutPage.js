@@ -6,6 +6,8 @@ import CheckoutCard from './CheckoutCard';
 import Total from './Total';
 import { useStateValue } from '../StateProvider';
 
+import "../components/checkoutpage.css"
+
 
 
 export default function CheckoutPage() {
@@ -15,7 +17,7 @@ export default function CheckoutPage() {
     return (
       <>
       {basket?.map((item) =>(
-        <Grid item xs={12} sm={8} md={6} lg={4}>
+        <Grid className='item' item xs={12} sm={8} md={6} lg={4}>
           <CheckoutCard key={item.id} product={item}/>
         </Grid>
       ))}
@@ -26,12 +28,12 @@ export default function CheckoutPage() {
   return (
     <Box className='box' sx={{ flexGrow: 1 }}>
       <Grid container spacing={3}>
-       <Grid item xs={12}>
+       <Grid  item xs={12}>
           <Typography align='center' gutterBottom variant='h4'>
               Shopping Cart
           </Typography>
        </Grid>
-       <Grid item xs={12} sm={8} md={9} container spacing={2}>
+       <Grid className='item' item xs={12} sm={8} md={9} container spacing={2}>
           <FormRow/>
        </Grid>
        <Grid item xs={12} sm={4} md={3}>
